@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Cupbop Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Cupbop Inicio</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <figure>
-                <img src="" alt="">
+    <header>
+        <nav>
+            <figure class="logo">
+                <img src="./assets/LogoCupbopTransparente.png" width="120px" alt="">
             </figure>
             <p>Inicio</p>
             <p>Menú</p>
@@ -23,62 +26,66 @@
     </header>
     <main>
         <section>
-            <div id="left-section">
-                <h1>Cupbob</h1>
-                <h3>Comida Asiática</h3>
-                <p>¡Nunca había sido tan rápido y rico tener comida asiática cerca de ti con tan solo un clic!</p>
-                <input type="text" name="" id="" value="aca debe ir link iniciar sesion">
-                <button>INGRESAR</button>
-            </div>    
-            <div id="right-section">
-                <img src="" alt="">
-            </div>    
+            <div class="first-section">
+                <div id="left-section">
+                    <h1>Cupbop</h1>
+                    <h3 class="subtitle">Comida Asiática</h3>
+                    <p>¡Nunca había sido tan rápido y rico tener comida asiática cerca de ti con tan solo un clic!</p>
+                    <button>INGRESAR</button>
+                </div>    
+                <div id="right-section">
+                    <video src="./assets/CupbopSelectVideo.mp4" autoplay alt="">
+                </div> 
+            </div>
         </section>
         <section>
-            <div class="first-section">
-                <h2>¿Qué es Cupbob?</h2>
+            <div class="second-section">
+                <h2>¿Qué es Cupbop?</h2>
                 <p>Somos una plataforma lorem ipsum dolor sit amet, consectetur adipiscing elit. ac ante sit amet diam molestie sollicitudin eu at nulla. Suspendisse potenti.<br> 
                     Morbi commodo pharetra purus at interdum. Aliquam erat volutpat. Donec dictum rutrum porta. Aliquam ut ante congue, porta elit sed, dignissim diam. <br>
                     Sa euismod velit. euismod commodo lacus vel bibendum. Curabitur vestibulum libero nec venenatis congue. Proin sed vulputate augue.</p>
             </div>        
-            <div class="second-section">
-                <h2>Nuestro Menú</h2>
-                <div>
-                    <h4>Entradas</h4>
-                </div>
-                <div>
-                    <h4>Platos</h4>
-                </div>
-                <div>
-                    <h4>Combos</h4>
-                </div>
-                <div>
-                    <h4>Bebidas</h4>
-                </div>
-            </div>
             <div class="third-section">
-                <h2>Nuestros Planes</h2>
-                <div>
-                    <h4>Básico</h4>
-                </div>
-                <div>
-                    <h4>Familiar</h4>
-                </div>
-                <div>
-                    <h4>Premium</h4>
-                </div>              
+                <h2>Nuestro Menú</h2>
+                <div class="card-section-menu">
+                    <div class="card">
+                        <h4>Entradas</h4>
+                    </div>
+                    <div class="card">
+                        <h4>Platos</h4>
+                    </div>
+                    <div class="card">
+                        <h4>Combos</h4>
+                    </div>
+                    <div class="card">
+                        <h4>Bebidas</h4>
+                    </div>
+                </div>                
             </div>
             <div class="four-section">
+                <h2>Nuestros Planes</h2>
+                <div class="planes-section">
+                    <div class="card-planes" id="naranja">
+                        <h4>Básico</h4>
+                    </div>
+                    <div class="card-planes" id="fucsia">
+                        <h4>Familiar</h4>
+                    </div>
+                    <div class="card-planes" id="morado">
+                        <h4>Premium</h4>
+                    </div> 
+                </div>                             
+            </div>
+            <div class="five-section">
                 <h2>Regístrate</h2>
-                <p>Morbi commodo pharetra purus at interdum. Aliquam erat volutpat.</p>
-                input type="text" name="" id="" value="aca debe ir link REGISTRO">
+                <p>¿Aún no tienes una cuenta con nosotros?</p>
                 <button>REGISTRO</button>
             </div>
         </section>
     </main>
     <footer>
         <div class="logo">
-            <img src="" alt="">
+            <img src="./assets/LogoCupbopTransparente.png" width="180px" alt="">
         </div>
         <ul>
             <li>Inicio </li>
