@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>REGISTRO DE USUARIO</h1>
+    <form action="" method="GET">
+
+        <label for="nombres">Nombres:</label>
+        <input type="text" name="nombres" id="nombres" required> 
+        <br>
+
+        <label for="apellido">Apellidos:</label>
+        <input type="text" name="apellidos" id="apellidos" required>
+        <br>
+
+        <label for="genero">Género:</label>
+        <input type="radio" > Hombre
+        <input type="radio"> Mujer
+        <input type="radio"> Otro
+        <br>
+
+        <label for="edad">Edad:</label>
+        <input type="text" name="edad" id="edad" required>
+        <br>
+
+        <label for="nacimiento">Edad:</label>
+        <input type="date" name="nacimiento" id="nacimiento" required>
+        <br>
+
+        <label for="nickname">Nickname:</label>
+        <input type="text" name="nickname" id="nickname" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="correo@ejemplo.com" required>
+        <br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+
+        <label for="tipoUsuario">Tipo de Usuario:</label>
+        <br>
+        <input type="radio"> Cliente
+        <input type="radio"> Administrador
+        <input type="radio"> Superadministrador
+        <br>
+
+        <input type="checkbox" name="condicones1" id="condicones1" required> Declaro haber leído las condiciones generales del programa y la normativa sobre
+        protección de datos.
+        <br>
+        <input type="checkbox" name="condiciones2" id="condiciones2" required> Acepto términos y condiciones.
+        <br>
+        
+        <button type="submit">REGISTRARSE</button>
+
+    </form>    
+
+    
+</body>
+</html>

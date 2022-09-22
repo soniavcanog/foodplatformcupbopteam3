@@ -1,0 +1,17 @@
+body{
+    background-color:#fff8eb;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #9e0059;
+}
+ button{
+    height: 40px;
+    border-radius: 46px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: #F8B739;
+ }
